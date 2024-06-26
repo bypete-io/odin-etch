@@ -1,9 +1,12 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 32px;
     align-items: center;
     height: 100%;
+    padding: 32px;
     background-color: rgb(30, 35, 52);
 }
 #canvas.container {
@@ -30,3 +33,12 @@ border: 1px solid rgba(255,255,255, 0.10);
 }
 
 .square:last-child{border-right: none;}
+button {
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgba(81, 169, 216, 1);
+    border: 1px solid #000;
+}
