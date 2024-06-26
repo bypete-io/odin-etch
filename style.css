@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(30, 35, 52);
+}
+#canvas.container {
+width: 800px;
+height: 800px;
+display: flex;
+justify-content: stretch;
+flex-direction: column;
+border: 1px solid rgba(255,255,255, 0.10);
+}
+.row {
+    display: flex;
+    flex:1;
+    border-bottom: 1px solid rgba(255,255,255, 0.10);
+}
+
+.square {
+    border-right: 1px solid rgba(255,255,255, 0.10);
+    flex:1;
+}
+
+.container .row:last-child {
+    border-bottom: none;
+}
+
+.square:last-child{border-right: none;}
